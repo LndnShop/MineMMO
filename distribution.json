@@ -3,8 +3,8 @@
   "servers": [
     {
       "id": "MineMMO-1.20.1",
-      "name": "MineMMO (Minecraft 1.20.1)",
-      "description": "MineMMO Running Minecraft 1.20.1 (Fabric v0.15.11)",
+      "name": "MineMMO Main Server",
+      "description": "MMO Styled Survival for Kembang Kempis",
       "icon": "https://lndnshop.github.io/MineMMO/img/logo.png",
       "version": "0.0.2",
       "address": "41.216.186.158:25588",
