@@ -265,16 +265,6 @@
           }
         },
         {
-          "id": "de.keksuccino:fancymenu:3.2.3@jar",
-          "name": "FancyMenu",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2686178,
-            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/fancymenu_fabric_3.2.3_MC_1.20.1.jar",
-            "MD5": "4a23f783f6d3e9b3a44fcd7f24ed4eea"
-          }
-        },
-        {
           "id": "generated.fabricmod:ferritecore:6.0.1@jar",
           "name": "FerriteCore",
           "type": "FabricMod",
