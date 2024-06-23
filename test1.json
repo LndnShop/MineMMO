@@ -1,0 +1,611 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "MineMMO-1.20.1",
+      "name": "MineMMO (Minecraft 1.20.1)",
+      "description": "MineMMO Running Minecraft 1.20.1 (Fabric v0.15.11)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.11",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1327691,
+            "MD5": "b49fcf1bafc14bcda2472a0f060ebe41",
+            "url": "http://localhost:8080/repo/lib/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.15.11",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "1cab0c2ad8e9f0f19030d448f0e967e9",
+                "url": "http://localhost:8080/repo/versions/1.20.1-fabric-0.15.11/1.20.1-fabric-0.15.11.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1458875,
+                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
+                "url": "http://localhost:8080/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "http://localhost:8080/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.additionz:additionz:1.3.2@jar",
+          "name": "AdditionZ",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 234087,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/additionz-1.3.2.jar",
+            "MD5": "ec0e109aec55e9a60ea551087fc56370"
+          }
+        },
+        {
+          "id": "net.adventurez:adventurez:1.4.20@jar",
+          "name": "AdventureZ",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4952938,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/adventurez-1.4.20.jar",
+            "MD5": "ab480e87e0d9a84e6dc5218008a48382"
+          }
+        },
+        {
+          "id": "folk.sisby.antique_atlas:antique-atlas:2.9.1+1.20@jar",
+          "name": "Antique Atlas",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2583339,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/antique-atlas-2.9.1+1.20.jar",
+            "MD5": "befe4f1467760d3738e51d88b78b2ece"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 585207,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/architectury-9.2.14-fabric.jar",
+            "MD5": "2ae04e0dad60a390031ee341e0b2ab45"
+          }
+        },
+        {
+          "id": "de.keksuccino:auudio:1.0.3@jar",
+          "name": "Auudio",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 40343,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/auudio_fabric_1.0.3_MC_1.20.jar",
+            "MD5": "c09367017eea90ad2919bc7ba1a7f9fc"
+          }
+        },
+        {
+          "id": "net.bettercombat:bettercombat:1.8.5+1.20.1@jar",
+          "name": "Better Combat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 902818,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/bettercombat-fabric-1.8.5+1.20.1.jar",
+            "MD5": "220f6c39ad08e28807a4d5307bf56d9b"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.118@jar",
+          "name": "Cloth Config v11",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1159192,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/cloth-config-11.1.118-fabric.jar",
+            "MD5": "eb13a834db10ee7e8c5e6a6d4b037fbd"
+          }
+        },
+        {
+          "id": "generated.fabricmod:connector:1.0.0-beta.44+1.20.1@jar",
+          "name": "Connector",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4680468,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/Connector-1.0.0-beta.44+1.20.1.jar",
+            "MD5": "c0b39746417f5ee1bbcda00e4e29ccfe"
+          }
+        },
+        {
+          "id": "generated.fabricmod:connectorextras:1.11.1+1.20.1@jar",
+          "name": "ConnectorExtras",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 188260,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/ConnectorExtras-1.11.1+1.20.1.jar",
+            "MD5": "b59a5404bb90c8a439d1c88ce6081674"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
+          "name": "CoroUtil",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2392617,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/coroutil-fabric-1.20.1-1.3.7.jar",
+            "MD5": "44365b7447c9b4c3aeadcadf454494aa"
+          }
+        },
+        {
+          "id": "com.github.clevernucleus:dataattributes_dc:1.6.0+1.20.1@jar",
+          "name": "Data Attributes: Directors Cut",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 171169,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/dataattributes_dc-1.6.0+1.20.1.jar",
+            "MD5": "b5f0afc15bd49a27269c3a26e1dd356e"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.0.2@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 388685,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/entity_model_features_fabric_1.20.1-2.0.2.jar",
+            "MD5": "c01d0770b85957ccdce6e76c5ab63836"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.1.1@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 601796,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/entity_texture_features_fabric_1.20.1-6.1.1.jar",
+            "MD5": "4c649a716e986df824aa75d3ed2eca77"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric:api-0.92.2+1.11.8+1.20.1@jar",
+          "name": "Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3041071,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/fabric-api-0.92.2+1.11.8+1.20.1.jar",
+            "MD5": "7217481b8e9f40ac27273c1b5df0feb3"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.2+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107289,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/fabric-api-0.92.2+1.20.1.jar",
+            "MD5": "92c58961866741106aae126558c9d4a7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.11.0+kotlin.2.0.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7015315,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+            "MD5": "ac91311ce91421ca52a96d2a4e4f078c"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.2.3@jar",
+          "name": "FancyMenu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2686178,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/fancymenu_fabric_3.2.3_MC_1.20.1.jar",
+            "MD5": "4a23f783f6d3e9b3a44fcd7f24ed4eea"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125197,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/ferritecore-6.0.1-fabric.jar",
+            "MD5": "a19272e427f75fea59127de6610ea26b"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.0@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 397198,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
+            "MD5": "9b680a583230400e887dc545aa974936"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.2.18+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 250364,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/ImmediatelyFast-Fabric-1.2.18+1.20.4.jar",
+            "MD5": "7530923c63a9696f7d18eb2bc37a6f98"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.32+mc1.20.1@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105361,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/indium-1.0.32+mc1.20.1.jar",
+            "MD5": "100082a8527efcac4f0f58ab75c6977c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.1+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2684113,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/iris-1.7.1+mc1.20.1.jar",
+            "MD5": "aec4a86587848b38ef10969455af58d9"
+          }
+        },
+        {
+          "id": "io.github.hornster:itemfig:1.20.1-0.2.7-fabric@jar",
+          "name": "ItemFig",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 115801,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/itemfig-1.20.1-0.2.7-fabric.jar",
+            "MD5": "e9f92ee8695d6ed7aaa3841379cc38fd"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.9.2+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 567066,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/Jade-1.20-fabric-11.9.2.jar",
+            "MD5": "99e394b7fd256d96f7954531ba41f2e2"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.3.0.8@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1153559,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/jei-1.20.1-fabric-15.3.0.8.jar",
+            "MD5": "3114f3aff553de59e02744cc2353ef65"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.1@jar",
+          "name": "Konkrete",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 892067,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/konkrete_fabric_1.8.1_MC_1.20.1.jar",
+            "MD5": "a816ca0f5272f0e60c745f7fe6bef1d6"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.11.2@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 645865,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.2.jar",
+            "MD5": "026ca4110d57f16f701b400ad5d2ca26"
+          }
+        },
+        {
+          "id": "chronosacaria.mcda:mcda:5.0.2@jar",
+          "name": "MC Dungeons Armors",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1101138,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/mcda-5.0.2.jar",
+            "MD5": "d7d5fcab741cd3530429126b509553ac"
+          }
+        },
+        {
+          "id": "net.backupcup:mcde:1.5.7-1.20@jar",
+          "name": "MC Dungeons: Enchanting",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 738297,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/mcde-1.5.7-1.20.jar",
+            "MD5": "c98bc432e072c48287d69ab6b67dc83e"
+          }
+        },
+        {
+          "id": "chronosacaria.mcdw:mcdw:9.0.4@jar",
+          "name": "MC Dungeons Weapons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1494390,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/mcdw-9.0.4.jar",
+            "MD5": "b742ab330bda348d62ae48083e46d1c2"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.3@jar",
+          "name": "Melody",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 39696,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+            "MD5": "8095b46d324586b3cf3d2f5bffe8b417"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.18.1+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 642603,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/modernfix-fabric-5.18.1+mc1.20.1.jar",
+            "MD5": "c85dc8d510af05bc1c19971499e58751"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77943,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/MouseTweaks-fabric-mc1.20-2.26.jar",
+            "MD5": "3138c776d370c90603938eb54d17469a"
+          }
+        },
+        {
+          "id": "net.jmb19905:niftycarts:3.0.2+1.20.1@jar",
+          "name": "NiftyCarts",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 202440,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/niftycarts-3.0.2+1.20.1.jar",
+            "MD5": "d17c30ef18843f0c98a22a39be2e0d6f"
+          }
+        },
+        {
+          "id": "snownee.nimble:nimble:5.0.1@jar",
+          "name": "Nimble",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 28992,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/Nimble-1.20.1-fabric-5.0.1.jar",
+            "MD5": "50faa3a91182187d094ec3e1559a7ff9"
+          }
+        },
+        {
+          "id": "dev.kosmx.playerAnim:player-animator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 181008,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
+            "MD5": "03dfb09aabe5c2c8167568cd5c32666b"
+          }
+        },
+        {
+          "id": "com.github.clevernucleus:playerex:3.7.2+1.20.1@jar",
+          "name": "PlayerEx: Directors Cut",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 939085,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/playerex-3.7.2+1.20.1.jar",
+            "MD5": "1bffa3ba1aa23d5263e389da3b551ae7"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.9.4+1.20.1@jar",
+          "name": "Presence Footsteps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5733027,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/PresenceFootsteps-1.9.4+1.20.1.jar",
+            "MD5": "5d05759103ef318aea55a0cd90d5bd36"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.20@jar",
+          "name": "Puzzles Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 978720,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/PuzzlesLib-v8.1.20-1.20.1-Fabric.jar",
+            "MD5": "666f7b7768a699207aa1ac4ec42ec00e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.1-build.101@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77304,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+            "MD5": "0db2ef332dd00de8c64e34f192317118"
+          }
+        },
+        {
+          "id": "net.msymbios:reignitedhud:1.1.0@jar",
+          "name": "Reignited HUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1484419,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/reignitedhud-fabric-1.20.1-1.1.0.jar",
+            "MD5": "92a91d5f3490300acd1b4004155be014"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.10+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 965275,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/sodium-fabric-0.5.10+mc1.20.1.jar",
+            "MD5": "9e9522b078f4a62d0cef69719521ad2b"
+          }
+        },
+        {
+          "id": "net.voidz:voidz:1.0.11@jar",
+          "name": "VoidZ",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 68262,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/voidz-1.0.11.jar",
+            "MD5": "43867c59584431944db32f275d3c9171"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.20.1-1.1.1@jar",
+          "name": "What Are They Up To",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 679428,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/watut-fabric-1.20.1-1.1.1.jar",
+            "MD5": "674c35be35ccb7fa3ddc75f7f47f2200"
+          }
+        },
+        {
+          "id": "net.crazedaerialcable:weaponworks:1.4.1-1.20.1-fabric@jar",
+          "name": "Weaponworks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1531287,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/weaponworks-1.4.1-1.20.1-fabric.jar",
+            "MD5": "cd0532759a4107da1881ce042b00a876"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.5.0+1.20.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1148529,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/YetAnotherConfigLib-3.5.0+1.20.1-fabric.jar",
+            "MD5": "84ec83096ccce215ad670ce6ea8c3055"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.0+1.20.1@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 809496,
+            "url": "http://localhost:8080/servers/MineMMO-1.20.1/fabricmods/required/Zoomify-2.14.0+1.20.1.jar",
+            "MD5": "aec4d3b9216c592d89cdbcf1af41ad8a"
+          }
+        }
+      ]
+    }
+  ]
+}
