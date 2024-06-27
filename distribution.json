@@ -1,12 +1,12 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.3",
   "servers": [
     {
       "id": "MineMMO-1.20.1",
-      "name": "MineMMO Main Server",
-      "description": "MMO Styled Survival for Kembang Kempis",
-      "icon": "https://lndnshop.github.io/MineMMO/img/logo.png",
-      "version": "0.0.2",
+      "name": "MineMMO (Minecraft 1.20.1)",
+      "description": "MineMMO Running Minecraft 1.20.1 (Fabric v0.15.11)",
+      "icon": null,
+      "version": "0.0.3",
       "address": "41.216.186.158:25588",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -105,6 +105,16 @@
           ]
         },
         {
+          "id": "dev.isxander.adaptivetooltips:adaptive-tooltips:1.3.0@jar",
+          "name": "Adaptive Tooltips",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 153757,
+            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/AdaptiveTooltips-1.3.0-fabric-1.20.2.jar",
+            "MD5": "608561432bbe3b82dd826e24a9538f73"
+          }
+        },
+        {
           "id": "net.additionz:additionz:1.3.2@jar",
           "name": "AdditionZ",
           "type": "FabricMod",
@@ -145,6 +155,16 @@
           }
         },
         {
+          "id": "artifacts:artifacts:9.5.12@jar",
+          "name": "Artifacts",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 953089,
+            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/artifacts-fabric-9.5.12.jar",
+            "MD5": "c27b379274d4a6f2aba26350aed80bd7"
+          }
+        },
+        {
           "id": "de.keksuccino:auudio:1.0.3@jar",
           "name": "Auudio",
           "type": "FabricMod",
@@ -152,6 +172,16 @@
             "size": 40343,
             "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/auudio_fabric_1.0.3_MC_1.20.jar",
             "MD5": "c09367017eea90ad2919bc7ba1a7f9fc"
+          }
+        },
+        {
+          "id": "mod.azure:azurelibarmor:2.0.5@jar",
+          "name": "AzureLib Armor",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 411967,
+            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/azurelibarmor-fabric-1.20.1-2.0.5.jar",
+            "MD5": "a2dbbbe931f38e236dfc1b828883e63f"
           }
         },
         {
@@ -232,6 +262,26 @@
             "size": 601796,
             "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/entity_texture_features_fabric_1.20.1-6.1.1.jar",
             "MD5": "4c649a716e986df824aa75d3ed2eca77"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:exposure_catalog:1.0.0@jar",
+          "name": "Exposure Catalog",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 147599,
+            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/exposure_catalog-1.20.1-1.0.0-fabric.jar",
+            "MD5": "a0fba21084d8cefe45d55716416abdb2"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:exposure:1.6.0@jar",
+          "name": "Exposure",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1032389,
+            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/exposure-1.20.1-1.6.0-fabric.jar",
+            "MD5": "e3d67ecc95cd3163c9b2dc3a8d5ebcbb"
           }
         },
         {
@@ -535,6 +585,16 @@
           }
         },
         {
+          "id": "net.runes:runes:0.9.13+1.20.1@jar",
+          "name": "Runes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 242139,
+            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/runes-0.9.13+1.20.1.jar",
+            "MD5": "9421182fa45686ae55b60e49722d7125"
+          }
+        },
+        {
           "id": "me.jellysquid.mods:sodium:0.5.10+mc1.20.1@jar",
           "name": "Sodium",
           "type": "FabricMod",
@@ -542,6 +602,46 @@
             "size": 965275,
             "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/sodium-fabric-0.5.10+mc1.20.1.jar",
             "MD5": "9e9522b078f4a62d0cef69719521ad2b"
+          }
+        },
+        {
+          "id": "net.spell_engine:spell_engine:0.15.5+1.20.1@jar",
+          "name": "Spell Engine",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1439248,
+            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/spell_engine-0.15.5+1.20.1.jar",
+            "MD5": "7c4ebe4d6e5788dac990febc4e50c3df"
+          }
+        },
+        {
+          "id": "net.spell_power:spell_power:0.10.3+1.20.1@jar",
+          "name": "Spell Power Attribute",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 173623,
+            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/spell_power-0.10.3+1.20.1.jar",
+            "MD5": "0496c4f049e0d2d9843ab271a99dc713"
+          }
+        },
+        {
+          "id": "com.tiviacz:travelersbackpack:fabric-1.20.1-9.1.13@jar",
+          "name": "Traveler's Backpack",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1027302,
+            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/travelersbackpack-fabric-1.20.1-9.1.13.jar",
+            "MD5": "24dde79e183697685e3af7fb2cd620a4"
+          }
+        },
+        {
+          "id": "dev.emi:trinkets:3.7.2@jar",
+          "name": "Trinkets",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 238532,
+            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/trinkets-3.7.2.jar",
+            "MD5": "c010ccc2015e5b1f3cb1994694ecc512"
           }
         },
         {
@@ -572,6 +672,16 @@
             "size": 1531287,
             "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/weaponworks-1.4.1-1.20.1-fabric.jar",
             "MD5": "cd0532759a4107da1881ce042b00a876"
+          }
+        },
+        {
+          "id": "net.wizards:wizards:1.2.1+1.20.1@jar",
+          "name": "Wizards (RPG Series)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2873709,
+            "url": "https://lndnshop.github.io/MineMMO/servers/MineMMO-1.20.1/fabricmods/required/wizards-1.2.1+1.20.1.jar",
+            "MD5": "5ea2cac559f57a94c8ff47722f4ad7a0"
           }
         },
         {
